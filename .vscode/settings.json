@@ -1,0 +1,9 @@
+{
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.enableNeovim": false,
+  "editor.defaultFormatter": null,
+  "editor.formatOnSave": true
+}
