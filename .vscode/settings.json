@@ -1,9 +1,25 @@
 {
+
+  "emmet.includeLanguages": {
+    "liquid": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": {
+    "html": {
+      "attr_quotes": "double"
+    }
+  },
+  "editor.formatOnSave": true,
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
   "vim.incsearch": true,
   "vim.enableNeovim": false,
-  "editor.defaultFormatter": null,
-  "editor.formatOnSave": true
+  "[liquid]": {
+    "editor.defaultFormatter": "Shopify.theme-check-vscode",
+    "editor.formatOnSave": true
+  },
+  "auto-rename-tag.activationOnLanguage": [
+    "liquid"
+  ]
 }

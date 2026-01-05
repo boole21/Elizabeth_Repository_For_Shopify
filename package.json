@@ -13,5 +13,12 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "@shopify/prettier-plugin-liquid": "github:Shopify/prettier-plugin-liquid"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.liquid\" \"**/*.{js,css,json,md}\""
   }
 }
