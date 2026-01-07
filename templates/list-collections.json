@@ -9,10 +9,9 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "collections",
-      "settings": {}
+    "template": {
+      "type": "template-list-collections",
     }
   },
-  "order": ["main"]
+  "order": ["template"]
 }
