@@ -9,10 +9,10 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "search",
+    "template": {
+      "type": "template-search",
       "settings": {}
     }
   },
-  "order": ["main"]
+  "order": ["template"]
 }
